@@ -10,6 +10,9 @@ const config: StorybookConfig = {
     name: "@storybook/angular",
     options: {},
   },
+  core: {
+    disableTelemetry: true,
+  },
   docs: {
     autodocs: "tag",
   },
